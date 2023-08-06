@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/back" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/load" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20dp" android:layout_centerHorizontal="true">
+        <TextView android:textColor="@color/white" android:id="@+id/load2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="See all feedbacks"/>
+        <TextView android:textColor="@color/text" android:gravity="center" android:id="@+id/load1" android:background="?android:attr/selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="here" android:paddingStart="5dp" android:paddingEnd="5dp"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/idRVChats" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/idLLMessage" android:layout_below="@+id/load"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/idLLMessage" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:weightSum="5" android:layout_alignParentBottom="true">
+        <EditText android:textColor="@color/text" android:textColorHint="@color/dark" android:id="@+id/idEdtMessage" android:background="@drawable/box" android:padding="10dp" android:layout_width="0dp" android:layout_height="40dp" android:hint="Tell us about your query" android:layout_weight="4" android:backgroundTint="@color/white"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/idIBSend" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_send" android:layout_weight="1" app:tint="@color/button"/>
+    </LinearLayout>
+</RelativeLayout>

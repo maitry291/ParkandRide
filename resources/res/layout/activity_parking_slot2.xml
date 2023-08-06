@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/back" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/p" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_centerHorizontal="true">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:background="@drawable/slotbg" android:layout_width="20dp" android:layout_height="20dp" android:layout_margin="5dp"/>
+                <TextView android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Empty Slots" android:fontFamily="@font/adamina" android:layout_marginStart="5dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="5dp">
+                <TextView android:background="@drawable/slotbg" android:layout_width="20dp" android:layout_height="20dp" android:layout_margin="5dp" android:backgroundTint="@color/c4"/>
+                <TextView android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Not available" android:fontFamily="@font/adamina" android:layout_marginStart="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/a1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:layout_below="@+id/p" android:layout_alignParentStart="true">
+            <TextView android:background="@drawable/slotbg" android:layout_width="150dp" android:layout_height="0dp" android:layout_margin="5dp" android:minHeight="120dp" android:layout_weight="1"/>
+            <TextView android:background="@drawable/slotbg" android:layout_width="150dp" android:layout_height="0dp" android:layout_margin="5dp" android:minHeight="120dp" android:layout_weight="1"/>
+            <TextView android:background="@drawable/slotbg" android:layout_width="150dp" android:layout_height="0dp" android:layout_margin="5dp" android:minHeight="120dp" android:layout_weight="1"/>
+            <TextView android:background="@drawable/slotbg" android:layout_width="150dp" android:layout_height="0dp" android:layout_margin="5dp" android:minHeight="120dp" android:layout_weight="1"/>
+            <TextView android:background="@drawable/slotbg" android:layout_width="150dp" android:layout_height="0dp" android:layout_margin="5dp" android:minHeight="120dp" android:layout_weight="1"/>
+            <TextView android:background="@drawable/slotbg" android:layout_width="150dp" android:layout_height="0dp" android:layout_margin="5dp" android:minHeight="120dp" android:layout_weight="1"/>
+            <TextView android:background="@drawable/slotbg" android:layout_width="150dp" android:layout_height="0dp" android:layout_margin="5dp" android:minHeight="120dp" android:layout_weight="1"/>
+            <TextView android:background="@drawable/slotbg" android:layout_width="150dp" android:layout_height="0dp" android:layout_margin="5dp" android:minHeight="120dp" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/a2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:layout_below="@+id/p" android:layout_alignParentEnd="true">
+            <TextView android:background="@drawable/slotbg" android:layout_width="150dp" android:layout_height="0dp" android:layout_margin="5dp" android:minHeight="120dp" android:layout_weight="1"/>
+            <TextView android:background="@drawable/slotbg" android:layout_width="150dp" android:layout_height="0dp" android:layout_margin="5dp" android:minHeight="120dp" android:layout_weight="1"/>
+            <TextView android:background="@drawable/slotbg" android:layout_width="150dp" android:layout_height="0dp" android:layout_margin="5dp" android:minHeight="120dp" android:layout_weight="1"/>
+            <TextView android:background="@drawable/slotbg" android:layout_width="150dp" android:layout_height="0dp" android:layout_margin="5dp" android:minHeight="120dp" android:layout_weight="1"/>
+            <TextView android:background="@drawable/slotbg" android:layout_width="150dp" android:layout_height="0dp" android:layout_margin="5dp" android:minHeight="120dp" android:layout_weight="1"/>
+            <TextView android:background="@drawable/slotbg" android:layout_width="150dp" android:layout_height="0dp" android:layout_margin="5dp" android:minHeight="120dp" android:layout_weight="1"/>
+            <TextView android:background="@drawable/slotbg" android:layout_width="150dp" android:layout_height="0dp" android:layout_margin="5dp" android:minHeight="120dp" android:layout_weight="1"/>
+            <TextView android:background="@drawable/slotbg" android:layout_width="150dp" android:layout_height="0dp" android:layout_margin="5dp" android:minHeight="120dp" android:layout_weight="1"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

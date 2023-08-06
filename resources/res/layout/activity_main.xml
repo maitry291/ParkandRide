@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/back" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@+id/head" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp" android:text="@string/choose_your_vehicle_type" android:fontFamily="@font/adamina"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ll1" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_below="@+id/head">
+        <LinearLayout android:orientation="vertical" android:id="@+id/opt1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="150dp" android:layout_margin="10dp" app:cardCornerRadius="10dp">
+                <ImageView android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/twowheeler"/>
+            </androidx.cardview.widget.CardView>
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="@string/two_wheeler_parking" android:fontFamily="@font/inter"/>
+            <TextView android:textSize="14sp" android:textColor="@color/dark" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="(Scooter, Motorcycle, Bicycle, Scooty)" android:fontFamily="@font/inter"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/opt2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="150dp" android:layout_margin="10dp" app:cardCornerRadius="10dp">
+                <ImageView android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/three"/>
+            </androidx.cardview.widget.CardView>
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="Three Wheeler Parking" android:fontFamily="@font/inter"/>
+            <TextView android:textSize="14sp" android:textColor="@color/dark" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="(Auto rickshaw)" android:fontFamily="@font/inter"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ll2" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_below="@+id/ll1">
+        <LinearLayout android:orientation="vertical" android:id="@+id/opt3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="150dp" android:layout_margin="10dp" app:cardCornerRadius="10dp">
+                <ImageView android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/fourwheeler"/>
+            </androidx.cardview.widget.CardView>
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="Four Wheeler Parking " android:fontFamily="@font/inter"/>
+            <TextView android:textSize="14sp" android:textColor="@color/dark" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="(Car, Jeep, Van, Buses)" android:fontFamily="@font/inter"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/opt4" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="150dp" android:layout_margin="10dp" app:cardCornerRadius="10dp">
+                <ImageView android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/six"/>
+            </androidx.cardview.widget.CardView>
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="Six Wheeler Parking" android:fontFamily="@font/inter"/>
+            <TextView android:textSize="14sp" android:textColor="@color/dark" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="(Big trucks with two gear axles each having four wheels)" android:fontFamily="@font/inter"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:layout_above="@+id/location" android:layout_centerHorizontal="true">
+        <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="See parking area"/>
+        <TextView android:textColor="@color/text" android:gravity="center" android:id="@+id/h1" android:background="?android:attr/selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="here" android:paddingStart="5dp" android:paddingEnd="5dp"/>
+    </LinearLayout>
+    <TextView android:textColor="@color/dark" android:id="@+id/location" android:background="?android:attr/selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="��Location: Surathkal" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end" android:id="@+id/add_fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:src="@drawable/add" android:minHeight="48dp" android:layout_alignParentBottom="true" android:layout_marginStart="5dp" android:layout_marginEnd="5dp" android:layout_alignParentEnd="true" android:backgroundTint="@color/button" app:fabCustomSize="50dp" app:fabSize="0"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end" android:id="@+id/profile_fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:src="@drawable/user" android:layout_above="@+id/add_fab" android:layout_alignParentEnd="true" android:backgroundTint="@color/button" app:fabCustomSize="50dp" app:fabSize="0"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end" android:id="@+id/logout_fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:src="@drawable/logout" android:layout_above="@+id/profile_fab" android:layout_alignParentEnd="true" android:backgroundTint="@color/button" app:fabCustomSize="50dp" app:fabSize="0"/>
+</RelativeLayout>

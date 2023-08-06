@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/slotbg" android:padding="10dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:backgroundTint="#aeb6c2">
+    <TextView android:textSize="17sp" android:textColor="@color/black" android:id="@+id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="User Name" android:singleLine="true" android:fontFamily="sans-serif" android:paddingStart="2dp"/>
+    <TextView android:textColor="@color/black" android:id="@+id/user_lastmsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="Send a Hi!" android:singleLine="true" android:layout_below="@+id/user_name" android:fontFamily="sans-serif" android:paddingStart="2dp"/>
+</LinearLayout>

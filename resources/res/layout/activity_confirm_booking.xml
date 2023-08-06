@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/back" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.airbnb.lottie.LottieAnimationView android:id="@+id/animation_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/animation"/>
+    <com.airbnb.lottie.LottieAnimationView android:id="@+id/animation_view2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="200dp" android:layout_marginBottom="25dp" app:lottie_autoPlay="true" app:lottie_rawRes="@raw/animation"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/booking" android:background="@drawable/slotbg" android:padding="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="30dp" android:layout_below="@+id/animation_view2" android:layout_marginStart="30dp" android:layout_marginEnd="30dp" android:backgroundTint="@color/white">
+        <TextView android:textSize="26sp" android:textStyle="bold" android:textColor="@color/button" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Parking Receipt" android:fontFamily="@font/adamina"/>
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="center" android:id="@+id/parkingDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="" android:fontFamily="@font/roboto"/>
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16sp" android:textColor="@color/black" android:id="@+id/custIn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="" android:fontFamily="@font/roboto" android:layout_marginStart="10dp" android:layout_marginEnd="5dp"/>
+            <TextView android:textSize="16sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="------&gt;" android:fontFamily="@font/roboto" android:layout_marginStart="10dp" android:layout_marginEnd="5dp"/>
+            <TextView android:textSize="16sp" android:textColor="@color/black" android:id="@+id/custOut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="" android:fontFamily="@font/roboto" android:layout_marginStart="10dp" android:layout_marginEnd="5dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_marginBottom="10dp" android:layout_marginStart="10dp">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Name: " android:fontFamily="@font/roboto"/>
+            <TextView android:textSize="16sp" android:textColor="@color/dark" android:id="@+id/custName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/roboto"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Phone Number: " android:fontFamily="@font/inter"/>
+            <TextView android:textSize="16sp" android:textColor="@color/dark" android:layout_gravity="center" android:id="@+id/cusPhone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:fontFamily="@font/inter"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginStart="10dp">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Transaction Number: " android:fontFamily="@font/roboto"/>
+            <TextView android:textSize="16sp" android:textColor="@color/dark" android:id="@+id/transId" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:fontFamily="@font/roboto"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginStart="10dp">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Time of Payment: " android:fontFamily="@font/roboto"/>
+            <TextView android:textSize="16sp" android:textColor="@color/dark" android:id="@+id/timedate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:fontFamily="@font/roboto"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginStart="10dp">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Vehicle Number: " android:fontFamily="@font/inter"/>
+            <TextView android:textSize="16sp" android:textColor="@color/dark" android:id="@+id/custVehicle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:fontFamily="@font/inter"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginStart="10dp">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Parking duration: " android:fontFamily="@font/inter"/>
+            <TextView android:textSize="16sp" android:textColor="@color/dark" android:id="@+id/custDuration" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:fontFamily="@font/inter"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginStart="10dp">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Parking Slot: " android:fontFamily="@font/inter"/>
+            <TextView android:textSize="16sp" android:textColor="@color/dark" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3rd floor-B " android:fontFamily="@font/inter"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="25dp" android:layout_marginStart="10dp">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Parking Fees: " android:fontFamily="@font/inter"/>
+            <TextView android:textSize="16sp" android:textColor="@color/dark" android:id="@+id/price" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:fontFamily="@font/inter"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton android:layout_gravity="center" android:id="@+id/done" android:background="@drawable/button_bg" android:visibility="gone" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_margin="20dp" android:text="Done" android:layout_below="@+id/booking" android:layout_centerHorizontal="true"/>
+</RelativeLayout>
