@@ -38,18 +38,32 @@ stress-free way.
 
 ### 🖼️ Screenshots 
 
+#### Login/Sign Up Screen
 <span>
+
 <img src="https://github.com/maitry291/ParkandRide/assets/83761752/406f989e-1312-48a8-bde6-c6bdbec84760" width="250" height="500">&nbsp;
 <img src="https://github.com/maitry291/ParkandRide/assets/83761752/31f79744-3625-46ff-bfad-b0ce5c6e61de" width="250" height="500">&nbsp;
 <img src="https://github.com/maitry291/ParkandRide/assets/83761752/18c238a3-b8b0-4489-95e9-bc8f4b69d800" width="250" height="500">&nbsp;  
+</span>
+
+#### Booking Slot with location tracking
+<span>
 <img src="https://github.com/maitry291/ParkandRide/assets/83761752/98a61feb-935c-454b-be4b-966475144c74" width="250" height="500">&nbsp;  
 <img src="https://github.com/maitry291/ParkandRide/assets/83761752/4d0fa717-818d-4aa0-9b53-9ddcad98469d" width="250" height="500">&nbsp; 
 <img src="https://github.com/maitry291/ParkandRide/assets/83761752/6ca2d1af-c25d-41e3-88dc-0d181c3238ca" width="250" height="500">&nbsp;
+</span>
+
+#### Receipt Generated after successful payment
+<span>
 <img src="https://github.com/maitry291/ParkandRide/assets/83761752/126efdf4-4d87-407d-ae6f-8f75dde9da02" width="250" height="500">&nbsp;
 <img src="https://github.com/maitry291/ParkandRide/assets/83761752/650285cc-6323-4990-8015-f72b357bf38d" width="250" height="500">&nbsp;
-<img src="https://github.com/maitry291/ParkandRide/assets/83761752/82721a19-90ad-4b0c-8546-3e39fc77ce3d" width="250" height="500">&nbsp;
+<img src="https://github.com/maitry291/ParkandRide/assets/83761752/9edddbe4-4276-4699-a90c-6b4a1422bfeb" width="250" height="500">&nbsp;
+</span>
+
+#### Customer Support
+<span>
 <img src="https://github.com/maitry291/ParkandRide/assets/83761752/4ebc4a37-c379-4b6d-8933-1cf7dc0c509a" width="250" height="500">&nbsp;
 <img src="https://github.com/maitry291/ParkandRide/assets/83761752/5b96bc2b-efe8-431a-ab97-c1582f2644cb" width="250" height="500">&nbsp;
-<img src="https://github.com/maitry291/ParkandRide/assets/83761752/9edddbe4-4276-4699-a90c-6b4a1422bfeb" width="250" height="500">&nbsp;
+
 
 </span>
